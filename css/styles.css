@@ -1,0 +1,124 @@
+:root {
+  --IRIS: #4d5ae5;
+  --WHITE: #fff;
+  --NAVY-BLUE: #2e2f42;
+  --SLATE: #434455;
+  --CLOUD: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--SLATE);
+}
+
+.logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16667;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo span {
+  color: var(--IRIS);
+}
+
+nav .logo {
+  color: var(--NAVY-BLUE);
+}
+
+header ul.list li a {
+  text-decoration: none;
+  color: var(--NAVY-BLUE);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--IRIS);
+}
+
+.nav-link {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.header-email-telno {
+  color: var(--SLATE, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+ul.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.bg-dark {
+  background-color: var(--NAVY-BLUE);
+}
+
+.hero h1 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07143;
+  letter-spacing: 1.12px;
+}
+
+.hero .order-service-button {
+  color: var(--WHITE);
+  background-color: var(--IRIS);
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hero .order-service-button:hover {
+  color: var(--SLATE);
+}
+
+.objectives {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.section-header {
+  text-align: center;
+  color: var(--NAVY-BLUE);
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11111;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.footer {
+  color: white;
+}
+
+footer .logo {
+  color: var(--CLOUD);
+}
