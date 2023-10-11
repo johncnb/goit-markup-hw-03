@@ -11,6 +11,31 @@ body {
   color: var(--SLATE);
 }
 
+.container {
+  width: 1158px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.header {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header .d-flex {
+  align-items: center;
+}
+
+header .logo {
+  margin-right: 76px;
+}
+
+.header nav .list {
+  gap: 40px;
+}
+
 .logo {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -59,19 +84,27 @@ header ul.list li a {
   letter-spacing: 0.32px;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 ul.list {
   list-style: none;
   padding-left: 0;
+  display: flex;
 }
 
-.bg-dark {
+.bg-dark.hero {
   background-color: var(--NAVY-BLUE);
+  padding-top: 188px;
+  padding-bottom: 188px;
+  text-align: center;
 }
 
 .hero h1 {
   color: white;
   text-align: center;
-  text-transform: uppercase;
   font-family: Roboto;
   font-size: 56px;
   font-style: normal;
@@ -87,6 +120,7 @@ ul.list {
   border-radius: 4px;
   font-weight: 700;
   cursor: pointer;
+  padding: 16px 32px;
 }
 
 .hero .order-service-button:hover {
@@ -103,6 +137,15 @@ ul.list {
   letter-spacing: 0.4px;
 }
 
+.section-objectives {
+  padding: 156px;
+  justify-content: center;
+}
+
+.list-objectives {
+  gap: 24px;
+}
+
 .section-header {
   text-align: center;
   color: var(--NAVY-BLUE);
@@ -115,10 +158,24 @@ ul.list {
   text-transform: capitalize;
 }
 
+li.team {
+  text-align: center;
+}
+
+.bg-dark.footer {
+  background-color: var(--NAVY-BLUE);
+  height: 312px;
+}
+
 .footer {
   color: white;
 }
 
 footer .logo {
   color: var(--CLOUD);
+}
+
+.bg-dark.footer {
+  padding-top: 101.5px;
+  padding-left: 156px;
 }

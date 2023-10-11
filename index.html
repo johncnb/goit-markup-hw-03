@@ -14,20 +14,25 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
-    <header>
-      <a href="#" class="logo"><span>WEB</span>STUDIO</a>
-      <nav>
-        <ul class="list">
-          <li><a href="#" class="nav-link">Studio</a></li>
-          <li>
-            <a href="./portfolio.html" class="nav-link">Portfolio</a>
-          </li>
-          <li><a href="#" class="nav-link">Contacts</a></li>
-        </ul>
-      </nav>
+    <header class="container d-flex header">
+      <div class="d-flex">
+        <a href="#" class="logo"><span>WEB</span>STUDIO</a>
+        <nav>
+          <ul class="list">
+            <li><a href="#" class="nav-link">Studio</a></li>
+            <li>
+              <a href="./portfolio.html" class="nav-link">Portfolio</a>
+            </li>
+            <li><a href="#" class="nav-link">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+
       <ul class="list">
         <li>
           <a href="mailto:info@devstudio.com" class="header-email-telno"
@@ -52,8 +57,8 @@
           Order Service
         </button>
       </section>
-      <section>
-        <ul class="list">
+      <section class="section section-objectives">
+        <ul class="list list-objectives">
           <li>
             <h3 class="objectives">Strategy</h3>
             <p>
@@ -87,9 +92,9 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section section-objectives">
         <h2 class="section-header">What We Are Doing</h2>
-        <ul class="list">
+        <ul class="list list-objectives">
           <li>
             <img src="images/desktop.jpg" width="360" alt="desktop computer" />
           </li>
@@ -109,10 +114,10 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section section-objectives">
         <h2 class="section-header">Our Team</h2>
-        <ul class="list">
-          <li>
+        <ul class="list list-objectives">
+          <li class="team">
             <img
               src="images/mark-guerrero.jpg"
               width="264"
@@ -121,7 +126,7 @@
             <h3>Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
-          <li>
+          <li class="team">
             <img
               src="images/tom-ford.jpg"
               width="264"
@@ -130,7 +135,7 @@
             <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
+          <li class="team">
             <img
               src="images/camila-garcia.jpg"
               width="264"
@@ -139,7 +144,7 @@
             <h3>Camila Garcia</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="team">
             <img
               src="images/daniel-wilson.jpg"
               width="264"
@@ -152,7 +157,9 @@
       </section>
     </main>
     <footer class="bg-dark footer">
-      <a href="#" class="logo"><span>WEB</span>STUDIO</a>
+      <a href="#" class="logo"
+        ><span class="web-logo-footer">WEB</span>STUDIO</a
+      >
       <p>
         Increase the flow of customers and<br />sales for your business with
         digital<br />marketing & growth solutions.
